@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" >
+        <div id="tb_cha">
+
+            <table border="1" align="center" style="border-collapse: collapse;">
+                <tr align="center">
+                    <td>STT</td>
+                    <td>Nhập Họ Tên </td>
+                    <td colspan="2">Giới tính: </td>
+                    <td>Sở thích </td>
+                </tr>
+    
+                <tr  align="center">
+                    <td>1</td>
+                    <td><input type="text"  id=""></td>
+                    <td><input type="radio" name="rd_gender1" id="rdgd_nam"> Nam </td>
+                    <td><input type="radio" name="rd_gender1" id="rdgd_nu">Nữ</td>
+                    <td><input type="text" id="tb_hobby1"></td>
+                </tr>
+    
+                <tr  align="center">
+                    <td>2</td>
+                    <td>Nguyễn Văn Nam</td>
+                    <td><input type="radio" name="rd_gender2"> Nam </td>
+                    <td><input type="radio" name="rd_gender2">Nữ</td>
+                    <td><input type="text" id="tb_hobby2"></td>
+                </tr>
+    
+                <tr  align="center">
+                    <td>3</td>
+                    <td>Hà Thị Vân</td>
+                    <td><input type="radio" name="rd_gender3"> Nam </td>
+                    <td><input type="radio" name="rd_gender3">Nữ</td>
+                    <td><input type="text" id="tb_hobby3"></td>
+                </tr>
+            </table>
+        </div>
+        <input type="button" value="Hiển thị dữ liệu" onclick="showData()" style="float: right;">
+        <input type="button" value="Ẩn / Hiện bảng" onclick="showTable()">
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

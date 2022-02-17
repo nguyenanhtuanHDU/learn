@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    ju
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid ;
+
+}

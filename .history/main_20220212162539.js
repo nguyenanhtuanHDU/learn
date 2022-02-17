@@ -1,0 +1,3 @@
+var course = {
+    name: js
+}
